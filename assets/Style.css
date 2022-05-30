@@ -1,0 +1,65 @@
+.titulo{
+    text-align: center;
+    color: chocolate;
+}
+
+.container{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+form label, form legend {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input-padrao {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.coluna{
+    padding: 10px;
+    text-align: center;
+}
+
+.botao-padrao{
+    border-radius: 8px;
+    background-color: lightgreen;
+    width: 25%;
+    padding: 10px;
+}
+
+.botao-padrao:hover{
+    transform: scale(1.1);
+}
+
+.formLista{
+    display: flex;
+}
+
+.botao-editar{
+    border-radius: 8px;
+    background-color: yellow;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.botao-editar:hover {
+    transform: scale(1.1);
+}
+
+.botao-excluir{
+    background-color: lightcoral;
+    text-decoration: none;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.botao-excluir:hover {
+    transform: scale(1.1);
+}
